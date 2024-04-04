@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '@/components/navbar';
-import Image from 'next/image'; // Import the Image component from next/image
+import Image from 'next/image'; 
 
 const AboutMePage = () => {
     const skills = ['JavaScript', 'Python', 'Java', 'C#', 'JavaScript', 'Swift', 'Kotlin', 'TypeScript', 'SQL', 'HTML', 'CSS', 'GitHub', 'Git'];
@@ -24,7 +24,7 @@ const AboutMePage = () => {
                     </div>
                 </div>
                 <div className="w-1/3 ml-40">
-                    <Image src="/myGif/magic-computer.gif" alt="Magic Computer" width={500} height={500} /> {/* Use the Image component instead of the img tag */}
+                    <Image src="/myGif/magic-computer.gif" alt="Magic Computer" width={500} height={500} />
                 </div>
             </div>
             <div className="pt-10 pb-30 flex">
