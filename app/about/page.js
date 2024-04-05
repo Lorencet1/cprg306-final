@@ -3,13 +3,13 @@ import Navbar from '@/components/navbar';
 import Image from 'next/image'; 
 
 const AboutMePage = () => {
-    const skills = ['JavaScript', 'Python', 'Java', 'C#', 'JavaScript', 'Swift', 'Kotlin', 'TypeScript', 'SQL', 'HTML', 'CSS', 'GitHub', 'Git'];
+    const skills = ['JavaScript', 'Python', 'Java', 'C#', 'Swift', 'Kotlin', 'TypeScript', 'SQL', 'HTML', 'CSS', 'GitHub', 'Git'];
 
     return (
         <div className="min-h-screen bg-gradient-to-r from-black to-gray-300">
             <Navbar />
             <div className="pt-10 pb-20 flex">
-                <div className="w-1/2 pl-40 pt-20">
+                <div className="w-1/2 pl-40 pt-20">n
                     <h1 className="text-3xl font-bold text-center mb-4 text-white">About Me</h1>
                     <div className="text-lg text-white space-y-4 text-center whitespace-normal">
                         <p>
